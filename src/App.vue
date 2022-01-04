@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld/>
+    <HelloWorld enableNavButton class="HelloWorld" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import HelloWorld from './components/vue-calendar'
 
 export default {
   name: 'App',
@@ -17,6 +17,11 @@ export default {
 </script>
 
 <style>
+.HelloWorld{
+  width: 400px;
+  height: 500px;
+  background: orange;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
