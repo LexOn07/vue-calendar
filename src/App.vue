@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld enableNavButton class="HelloWorld" />
+    <HelloWorld enableNavButton date="2022-01-01" class="HelloWorld" />
   </div>
 </template>
 
